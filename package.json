@@ -11,18 +11,21 @@
     "test": "jest"
   },
   "dependencies": {
+    "chevrotain": "11.0.3",
     "mathjs": "^11.3.1"
   },
   "devDependencies": {
     "jest": "^29.7.0"
   },
   "jest": {
-     "verbose": true,
-     "testEnvironment": "node",
-     "setupFilesAfterEnv": ["<rootDir>/tests/setup.js"]
+    "verbose": true,
+    "testEnvironment": "node",
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/setup.js"
+    ]
   },
   "keywords": [],
   "author": "Sebastian Balthier Ordonez",
   "license": "Apache 2.0",
-  "type": "commonjs"
+  "type": "module"
 }
